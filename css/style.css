@@ -244,12 +244,17 @@ p{
     .commodity-container{
         grid-template-columns: repeat(2, 2fr);
         row-gap: 25px;
+        column-gap: 11%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 @media screen and (max-width: 540px) {
     .commodity-container{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 15px;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 }
 /* .commodity-container{
@@ -286,12 +291,6 @@ p{
     .commodity-col{
         width: 250px;
         height: 300px;
-        margin-left: 10%;
-    }
-}
-@media screen and (max-width: 540px) {
-    .commodity-col{
-        margin-left: 30%;
     }
 }
 .commodity-card{
@@ -391,13 +390,15 @@ p{
 @media screen and (max-width: 768px) {
     .shopping{
         width: 500px;
-        margin-left: 10%;
+        margin-left: 17%;
+        margin-right: 17%;
     }
 }
 @media screen and (max-width: 540px) {
     .shopping{
         width: 350px;
-        margin-left: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 #shopping::before{
@@ -426,7 +427,6 @@ p{
     border-bottom: 1px solid #333333;
     position: absolute;
     bottom: -1px;
-    left: -20px;
 }
 @media screen and (max-width: 768px) {
     .cart-title{
@@ -436,6 +436,7 @@ p{
 @media screen and (max-width: 540px) {
     .cart-title{
         font-size: 10px;
+        margin-bottom: 10px;
     }
 }
 .shopping-list{
@@ -451,12 +452,24 @@ p{
     display: grid;
     grid-template-columns: 3fr 2fr 1fr 2fr 1fr ;
 }
+@media screen and (max-width: 768px) {
+    .shopping-cart-content{
+        height: 40px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .shopping-cart-content{
+        height: 30px;
+        margin-top: 5px;
+    }
+}
 .content-detail{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .content__price,.content__quantity,.content__total{
         font-size: 25px;
     }
@@ -478,7 +491,7 @@ p{
     line-height: 30px;
     border: 0;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .content__btn{
         font-size: 15px;
         height: 20px;
@@ -510,7 +523,7 @@ p{
     height: 50px;
     width: 80px;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .content__img{
         display: none;
     }
@@ -518,7 +531,7 @@ p{
 .content__icon{
     height: 50px;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .content__icon{
         height: 30px;
     }
@@ -532,13 +545,13 @@ p{
 @media screen and (max-width: 768px) {
     .material{
         width: 500px;
-        margin-left: 10%;
+        margin-left: 17%;
     }
 }
 @media screen and (max-width: 540px) {
     .material{
         width: 350px;
-        margin-left: 20%;
+        margin-left: 5%;
     }
 }
 .material-form{
